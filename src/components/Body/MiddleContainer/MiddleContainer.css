@@ -1,0 +1,94 @@
+.MiddleContainer {
+    width: 48%;
+    margin-left: 10px;
+    margin-right: 10px;
+    float: left;
+    position: relative;
+    text-align: left;
+}
+
+.SearchContainer {
+    background: #9ddaff;
+    width: 100%;
+    height: 60px;
+    padding: 10px;
+}
+
+.MiddleContainer .SearchContainer .TweetSearchImg {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    float: left;
+    padding: 0;
+    margin: 0;
+
+
+}
+
+#MidSearch {
+    background-color: #f5f8fa;
+    border-radius: 5px;
+    
+    border: 1px solid #e6ecf0;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #1979d8;
+    float: right;
+    font-size: 12px;
+    height: 32px;
+    margin-top: 5px;
+    line-height: 16px;
+    padding: 5px 32px 8px 12px;
+    transition: all .2s ease-in-out;
+    width: 85%;
+}
+
+#Navigation {
+    display: inline-block;
+    height: 60px;
+    margin: 0 auto;
+    padding: 5px 0px 5px 0px;
+    background: white;
+    border-bottom: 1px solid black;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+#Navigation a {
+    margin: 0;
+    padding: 0px 10px 0px 0px;
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: none;
+    color: darkslategrey;
+}
+
+#Navigation a:hover {
+    color: #1da1f2;
+}
+
+#Navigation p {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+
+}
+
+.MiddleContent {
+    padding: 5px;
+    padding-left: 5px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.MiddleContent h1 {
+    font-size: 12px;
+}
+
+.MiddleContent p {
+    overflow-wrap: break-word;
+    margin-left: 0;
+    width: 100%;
+}
